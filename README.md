@@ -9,3 +9,24 @@ winequality-red.csv ….. (4898 red wines)
 
 winequality-white.csv ….. (1599 white wines)
 [Link for the Dataset winequality-white.csv](http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv)
+
+## Adapting the data for a REGRESSION model (red & white together), target = quality (0 to 10)
+The two files will be considered together (red & white wines) for a total of 4898 + 1599 = 6497 samples and one more attribute (‘type’) will be added to each sample, to identify if the sample is from a red (type = 1) or a white (type = 0) wine.
+
+Therefore, the neural network for solving this regression problem, will have:
+• 12 inputs in the first layer (the 11 original attributes AND the new ‘type’ attribute)
+• 1 output processing element in the output layer, since the result will be a single number (0 to 10)
+
+Changing the targets to CLASSIFY 4 QUALITY LEVELS (3 or less = “BAD” & level 1; 4, 5, or 6 = “MEDIUM” & level 2 ; 7 or 8 = “GOOD” & level 3; 9 or more = “EXCELLENT” & level 4)
+
+A CLASSIFICATION MODEL, will provide as output an indication of the QUALITY LEVEL (BAD, MEDIUM, GOOD or EXCELLENT) of each wine sample.
+To implement this, the 6497 x 1 ‘level’ array will be ‘one-hot-encoded’ to yield a 6497 x 4 array, where each of the 6497 samples will have as target a 4-element array where 3 of the numbers will be 0 and only one will be 1
+
+Therefore, the network to perform classification of the wines into the 4 LEVELS of quality will have;
+• 12 inputs in the first layer (the 11 original attributes AND the new ‘type’ attribute)
+• 4 processing elements in the output layer. Ideally one of them would turn to 1 and three would remain at 0, to indicate that the input sample belongs to one of the 4 levels of quality.
+
+In Summary, the developed project contains TWO TYPES OF MODELS:
+[1] REGRESSION MODELS: regmodl
+[2] CLASSIFICATION MODELS: clasmodl
+
