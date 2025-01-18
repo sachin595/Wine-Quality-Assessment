@@ -1,4 +1,16 @@
 # Wine-Quality-Assessment
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-red?logo=keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-blue?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-yellowgreen?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-lightblue?logoColor=white)
+
+## Abstract
+
+The Wine Quality Assessment project aims to predict and classify wine quality using machine learning models based on chemical attributes of red and white wines. The dataset, sourced from the UCI Machine Learning Repository, includes 11 numerical features and quality scores assigned by wine experts. Two approaches were developed: (1) Regression models to predict quality on a continuous scale (0-10) and (2) Classification models to categorize wines into four quality levels (Bad, Medium, Good, Excellent). The combined dataset (6,497 samples) includes an added type feature to distinguish red and white wines. Neural networks were designed with 12 inputs for both tasks, demonstrating the application of deep learning to regression and classification problems.
+
 ## The Original Data:
 Wine makers from Portugal studied many types of wine both quantitatively and qualitatively. For each wine they measured 11 numerical chemical attributes (e.g., chlorides, density, pH value) and they asked 3 or more “experts” to assign a “quality value” (0 to 10), recording the median score from the experts.
 
