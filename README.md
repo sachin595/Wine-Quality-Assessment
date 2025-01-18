@@ -1,4 +1,4 @@
-# Wine-Quality-Assessment
+# Wine Quality Assessment
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-red?logo=keras&logoColor=white)
