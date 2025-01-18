@@ -43,5 +43,5 @@ In Summary, the developed project contains TWO TYPES OF MODELS:
 [2] CLASSIFICATION MODELS: clasmodl
 
 ### Results and Analysis
-For detailed results and analyses of this project, please refer to [final_report_and_results](final_report_and_results).
+For detailed results and analyses of this project, please refer to [final_report_and_results](final_report_and_results.pdf).
 
